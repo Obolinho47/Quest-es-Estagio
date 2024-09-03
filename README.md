@@ -1,4 +1,5 @@
-1)indice = 13
+#1)
+indice = 13
 Soma = 0
 k = 0
 while k<indice:
@@ -6,7 +7,7 @@ while k<indice:
   k = k+1
 print(Soma)
 #Saida = 78
-----------------------------------------
+#----------------------------------------
 def fibo(numero):
     a, b = 0, 1
     if numero == a or numero == b:
@@ -20,7 +21,7 @@ if fibo(Numero):
     print(f"O número {Numero} pertence à sequência de Fibonacci.")
 else:
     print(f"O número {Numero} não pertence à sequência de Fibonacci.")
--------------------------------------------
+#-------------------------------------------
 import json
 
 with open('dados.json') as f:
@@ -36,7 +37,7 @@ dias = len([valor for valor in faturamento_filtrado if valor > media_mensal])
 print(f"Menor valor de faturamento: R$ {menor:.2f}")
 print(f"Maior valor de faturamento: R$ {maior:.2f}")
 print(f"Número de dias com faturamento acima da média mensal: {dias}")
------------------------------------------------------------------------------------------
+#-----------------------------------------------------------------------------------------
 sp = 67836.43
 rj = 36678.66
 mg = 29229.88
@@ -56,7 +57,7 @@ print(f"RJ: {percentual_rj:.2f}%")
 print(f"MG: {percentual_mg:.2f}%")
 print(f"ES: {percentual_es:.2f}%")
 print(f"Outros: {percentual_outros:.2f}%")
------------------------------------------------------------------------------------------
+#-----------------------------------------------------------------------------------------
 entrada = input("Informe uma string: ")
 
 reversão = ""
